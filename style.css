@@ -235,11 +235,7 @@ img {
   html {
     font-size: 8px;
   }
-  .navbar {
-    flex-direction: column;
-    height: 120px;
-    padding: 20px;
-  }
+
   .navbar a {
     padding: 10px;
     margin: 0 3px;
