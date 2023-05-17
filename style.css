@@ -54,6 +54,7 @@ img {
 }
 .hamburger {
   display: none;
+  transition: all 0.4s ease-in-out;
 }
 .hamburger .bar {
   width: 33px;
@@ -61,6 +62,7 @@ img {
   background-color: #fff;
   display: block;
   margin-top: 4px;
+  transition: all 0.4s ease-in-out;
 }
 .navbar a {
   color: #fff;
