@@ -222,13 +222,16 @@ html {
     cursor: pointer;
   }
   .navbar nav ul {
+    flex-direction: column;
     position: absolute;
     left: 0;
-    top: -100%;
+    top: -500%;
     width: 100%;
     text-align: center;
-    background-color: #fff;
+    background-color: var(--dark);
     transition: all 0.4s ease-in-out;
+    gap: 15px;
+    padding: 50px;
   }
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
