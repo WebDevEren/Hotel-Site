@@ -52,6 +52,16 @@ img {
   height: 70px;
   padding: 0 3rem;
 }
+.hamburger {
+  display: none;
+}
+.hamburger .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  display: block;
+  margin-top: 4px;
+}
 .navbar a {
   color: #fff;
   padding: 1rem 2rem;
